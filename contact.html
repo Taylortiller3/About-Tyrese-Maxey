@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> About Tyrese maxey </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Get in Touch!</h1>
+      <p>Send us a message and we will tell you more !</p>
+      <!--Hero section-->
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>Tyrese maxey </h1>
+          <p>
+            “Getting one percent better every day.”
+          </p>
+        </div>
+      </section>
+
+      <!--Media Section-->
+      <section class="media-gallery">
+        <h2>Media Gallery</h2>
+      </section>
+      <!--Photo Gallery-->
+      <div class="photo-gallery">
+        <h3>Photos</h3>
+        <div class="image-grid">
+          <!--Images will go in here-->
+
+          <img
+            src="./Media/Images/Tyresemaxey.outline.png"
+            alt="Tyrese maxey headshot"
+            class="gallery-img"
+            style="width: 100%; height: auto;"
+          />
+          
+  
+
+      <!--Video Section-->
+      <h3>Game day Highlights</h3>
+      <!--Video will go here-->
+      <iframe
+        width="500"
+        height="315"
+        src="https://www.youtube.com/embed/Mahcgoytnb4?si=v7-FHAGEmHj4-81B"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+
+      <!--Audio Section-->
+      <section class="audio-section">
+        <h3>Audio</h3>
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/track/1t55dGrBkLvKDzNa9QJ3LV?utm_source=generator"
+          width="100%"
+          height="352"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        ></iframe>
+      </section>
+
+      <!--Here goes the form-->
+      <form class="contact-form">
+        <!--Name Field-->
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <!--email Field-->
+        <div class="form-group">
+          <label for="email">Your email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!--Phone Field-->
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+
+        <!--Reason for contact-->
+        <div class="form-group">
+          <label for="reason">Reason for contact:</label>
+          <select id="reason" name="reason" required>
+            <option value="">Choose one...</option>
+            <option value="general">General question</option>
+            <option value="booking">Book preformance</option>
+            <option value="collab">Collaboration</option>
+            <option value="fan">Fan message</option>
+          </select>
+        </div>
+        <!--Message Field-->
+        <div class="form-group">
+          <label for="message">Your message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <!--News letter Checkbox-->
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="newsletter" name="newsletter" />
+
+          <label for="newsletter"> Send me updates! </label>
+        </div>
+
+        <!--Submit Button-->
+        <button type="submit" class="submit-button">Send Message</button>
+      </form>
+    </div>
+  </body>
+</html>

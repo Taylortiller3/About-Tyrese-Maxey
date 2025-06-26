@@ -1,0 +1,77 @@
+/* Reset styles- Make it look consistent across browsers */
+*  {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+  }
+*/
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #c73b3b;
+    line-height: 1.6;
+}
+ 
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #C4CED4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(236, 93, 217, 0.1);
+}
+
+
+h1 {
+    color: #000000f6;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px; 
+    color: #222020;
+    text-align: center;
+
+}
+
+/* Form group styles */
+.form-group {
+    margin-bottom: 15px; 
+}    
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+/* Input styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+} 
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus 
+select:focus,
+textarea:focus {
+    border-color: #000000;
+    outline: none;
+}
+/* Check box styles */
+.checkbox-group {
+    
+}
